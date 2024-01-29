@@ -10,5 +10,5 @@ CC = "${CCACHE} gcc"
 do_build() {
     echo "*** dxtrace do_build  ***\n"
     ## ${CC} ${CFLAGS} ${LDFLAGS} helloworld.c -o helloworld
-    cpptesttrace --cpptesttraceOutputFile=scan.bdf ${CC} ${CFLAGS} ${LDFLAGS} helloworld.c -o helloworld
+    cpptesttrace --cpptesttraceOutputFile=scan.bdf ${CC} ${CFLAGS} ${LDFLAGS} helloworld.c helper.c -o helloworld
 }
