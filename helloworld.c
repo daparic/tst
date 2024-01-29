@@ -1,11 +1,6 @@
 #include <stdio.h>
 
-int addnum(int a, int b) {
-    if (a = b) {
-        return 2*a;
-    }
-    return a + b;
-}
+int addnum(int, int);
 
 int main(int argc, char *argv[]) {
     printf("Hello, World!\n");
